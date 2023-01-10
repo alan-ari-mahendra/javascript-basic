@@ -41,21 +41,21 @@ substring(start, end)  substr(start, length)
 var nama = "221"
 var hasil = parseInt(nama) + 10;
 
-        // function printext() 
-        // {
-        //     var x = "Sekolah Anak NI"
-        //     document.getElementById("wrap").innerHTML = x;
-        // }
+        function printext() 
+        {
+            var x = "Sekolah Anak NI"
+            document.getElementById("wrap").innerHTML = x;
+        }
 
-        // printext();
+        printext();
 
             //------Parameter pada function--
-            // function menjumlahkan(angka, angka2 ) {
-            // return angka + angka2;
-            // }
+            function menjumlahkan(angka, angka2 ) {
+            return angka + angka2;
+            }
             
-            // var text = menjumlahkan(10, 50);
-            // document.getElementById("wrap").innerHTML = text;
+            var text = menjumlahkan(10, 50);
+            document.getElementById("wrap").innerHTML = text;
 
 
             var text = "sekolah koding 123";
@@ -74,10 +74,10 @@ var hasil = parseInt(nama) + 10;
 
                     // tipe data Array
         // Array dimulai dari angka 0
-        // kotak[2] = "Gunawan";
+        kotak[2] = "Gunawan";
         
         
-        // var text = "Namanya adalah " + kotak[2];
+        var text = "Namanya adalah " + kotak[2];
 
         // sort, reverse, concat, length, join("separater")
         var namaorg = ["Hilman ", "Fadil ", "Xie "];
