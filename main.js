@@ -1,22 +1,22 @@
 document.getElementById("wrap").innerHTML = "Sekolahkoding";
         
 
-deklarasi variabel
-Gunakan titik sbg pengganti koma
+// deklarasi variabel
+// Gunakan titik sbg pengganti koma
 var x = 172364;
 var tabungan = 22122004;
 var angka = 1000;
 var angka2 = 123;
 var text = "Anak Temu"
 
-Operator matematika
+// Operator matematika
 angka_hasil++; //Menjumlahkan dengan satu
 angka--; //Mengurangi dengan satu
 
 var angka2 = angka2 + angka; 
 
 
------METODE NUMBER------
+// -----METODE NUMBER------
 tiFixed(n) toString() random() min(a, b, c) max(a, b, c)
  var angka_hasil = Math.min(angka, angka2, 560);
 
@@ -34,7 +34,7 @@ var y = 5; //batas minimal
 Batas maksimal dari angka random adalah hasil penjumlahan dari = x + y
 var angka_hasil = Math.floor(Math.random() * x) + y;
 
------METODE STRING------
+// -----METODE STRING------
 Length IndexOf LastIndexOf Search charAt replace UpperCase Lowercase
 substring(start, end)  substr(start, length)
 
@@ -96,7 +96,6 @@ var hasil = parseInt(nama) + 10;
 
 
         // -----IF ELSE Section-----
-
         if (programmer == barang) 
         {
             document.getElementById("wrap").innerHTML = "Uang Programmer tidak cukup";
